@@ -83,4 +83,4 @@ int main()
 {
 	input();	// memanggil input
 	insertionshort();	// memanggil insertionshort
-	display();	// memanggil display
+	display();	// memanggil display 
