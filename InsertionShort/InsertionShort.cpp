@@ -1,8 +1,19 @@
-// InsertionShort.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
 
-int main()
+int arr[20];	// Membuat array dengan panjang data 20
+int n;			//  Membuat variable inputan n
+
+void input()
 {
-    std::cout << "Hello World!\n";
+	while (true)
+	{
+		cout << "Memasukkan Jumlah Data pada Array : ";	// Membuat inputan julah element array
+		cin >> n;
+
+		if (n <= 20)
+			(	// Membuar kondisi n tidak lebih dari 20
+
+			)
+	}
+}
