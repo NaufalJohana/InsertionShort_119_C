@@ -58,5 +58,17 @@ void insertionshort()
 		{
 			cout << arr[k] << n " "; // output ke layar
 		}
-	}
 
+	}
+}
+
+void display()
+{
+	cout << endl;					// output baris kosong
+	cout << "total element movement" << n - 1 << endl; // cout movement element
+	cout << "\n==========================" endl;
+	cout << "element array yang telah tersusun" << endl; // output ke layar
+	cout << "============================" << endl; // output ke layar
+
+	for (int j = 0; j < n; j++)
+}
