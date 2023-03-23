@@ -8,6 +8,7 @@ void input()
 	// Procedure Input
 {while (true)
 {
+	{
 		cout << "Memasukkan Jumlah Data pada Array : ";	// Membuat inputan julah element array
 		cin >> n;										// Memanggil variable inputan n
 		if (n <= 20)
@@ -35,7 +36,7 @@ void input()
 }
 // prosedure insertionshort
 void insertionshort()
-}
+{
 	int temp// membuat variable daya temporer atau penyimpanan sementara
 	int j; // membuat variable j sebagai panda
 
