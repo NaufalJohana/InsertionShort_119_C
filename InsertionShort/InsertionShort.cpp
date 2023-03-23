@@ -37,7 +37,7 @@ void input()
 // prosedure insertionshort
 void insertionshort()
 {
-	int temp// membuat variable daya temporer atau penyimpanan sementara
+	int temp;//buat variable daya temporer atau penyimpanan sementara
 	int j; // membuat variable j sebagai panda
 
 	for (int i = 1; i < n; i++) // membuat loping dengan i di mulai dari 1 hinggs n-1
@@ -51,13 +51,13 @@ void insertionshort()
 			j--;
 		}
 
-		arr[j + 1] temp;
+		arr[j + 1] = temp;
 
 		cout << endl;
 		cout << "\nPass" << i << ": ";
-		for (int k = 0); k < n; k++)
+		for (int k = 0 ;k < n; k++)
 		{
-			cout << arr[k] << n " "; // output ke layar
+			cout << arr[k] << n; " "; 
 		}
 
 	}
@@ -67,7 +67,7 @@ void display()
 {
 	cout << endl;					// output baris kosong
 	cout << "total element movement" << n - 1 << endl; // cout movement element
-	cout << "\n==========================" endl;		// output ke layar
+	cout << "\n==========================" << endl;// output ke layar
 	cout << "element array yang telah tersusun" << endl; // output ke layar
 	cout << "============================" << endl; // output ke layar
 
@@ -76,7 +76,7 @@ void display()
 		cout << arr[j] << endl; // output ke layar
 
 	}
-	cout << endl	// output baris kosong
+	cout << endl; //utput baris kosong
 }
 
 
@@ -85,3 +85,4 @@ int main()
 	input();	// memanggil input
 	insertionshort();	// memanggil insertionshort
 	display();	// memanggil display 
+}
