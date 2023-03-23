@@ -17,7 +17,7 @@ void input()
 		}
 		else
 		{
-			cout << "\n Arrray yang anda masukkan maksimal 20 elemen. \n"	// Menampilkan pesan jika data
+			cout << "\n Arrray yang anda masukkan maksimal 20 elemen. \n"; //enampilkan pesan jika data
 		}
 	}
 
@@ -75,4 +75,12 @@ void display()
 		cout << arr[j] << endl; // output ke layar
 
 	}
+	cout << endl	// output baris kosong
 }
+
+
+int main()
+{
+	input();	// memanggil input
+	insertionshort();	// memanggil insertionshort
+	display();	// memanggil display
